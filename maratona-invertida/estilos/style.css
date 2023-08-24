@@ -52,12 +52,12 @@ ul {
 
 
 li.serie {
-    margin-top: -20px;
+    margin-top: -10px;
     margin-bottom: 5px;
     padding: 10px;
     border: none;
-    width:230px;
-    height: 230px;
+    width:280px;
+    height: 180px;
     
 }
 
@@ -109,10 +109,25 @@ div.back{
 .back > a:hover {
     text-decoration: underline;
 }
+#toda {
+    margin-top: 20px;
+}
 
-.lateral > a > img {
+#red > img {
+    margin-top: -25px;
     float: right;
     width: 15px;
+}
+.lateral {
+    display: inline-block;
+    float: right;
+    position: relative;
+    margin-right: 40px;
+}
+
+#maratona {
+   display: inline-block;
+   position: absolute;
 }
 
 
