@@ -24,7 +24,7 @@ header {
 }
 
 main {
-   
+    display: inline-block;
     width: 90vw;
     height: 100vh;
     margin: auto;
@@ -45,10 +45,25 @@ div#fundo {
 ul {
     list-style-type: none;
     margin-left: -37px;
+    display: flex;
+    flex-direction: row;
 }
 
+
+
+li.serie {
+    margin-top: -20px;
+    margin-bottom: 5px;
+    padding: 10px;
+    border: none;
+    width:230px;
+    height: 230px;
+    
+}
+
+
 li {
-    display: inline-block;
+    
     margin-bottom: 5px;
     padding: 10px;
     margin-right: 10px;
@@ -61,12 +76,15 @@ li:hover {
     color: black;
 }
 
-.back{
+div.back{
     background: url(..//img/imagemCard.png);
+    background-size: cover;
+    background-position: center center;
     padding: 35px;
     width:50%;
     margin-bottom: 80px;
     display: inline-block;
+    
 }
 
 .back > h2 {
@@ -91,17 +109,38 @@ li:hover {
 .back > a:hover {
     text-decoration: underline;
 }
+
+.lateral > a > img {
+    float: right;
+    width: 15px;
+}
+
+
 #iframe > h1 {
     color: white;
 }
-div#iframe {
-    display: inline-block;
-    position: absolute;
-    margin-top: -1070px;
-    
-}
-iframe{
-    width: 200px;
-    height: 300px;
+aside#iframe {
+display: inline-block;
+position: absolute;
+margin-top: -1080px;
+
 }
 
+aside#iframe > h3 {
+    margin-left: 12px;
+}
+span > a > img{
+    margin-left: 1px;
+    margin-bottom: -6px ;
+   
+}
+span > a {
+
+    text-decoration: none;
+    color: white;
+}
+span > a:hover {
+    
+    color: black;
+    text-decoration: underline;
+}

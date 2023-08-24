@@ -1,0 +1,12 @@
+@charset "UTF8";
+
+@media screen and (min-width:600px) {
+    main {
+        margin-top: -250px;
+    }
+
+   aside#iframe {
+    margin-top: -930px;
+   }
+    
+}

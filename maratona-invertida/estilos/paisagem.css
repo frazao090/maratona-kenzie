@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 350px) and (max-width: 600px) {
+
+
+    main {
+        margin-top: 30px;
+    }
+    
+}
+
+div#fundo {
+   
+    height: 240px;
+}
+aside#iframe {
+  
+    margin-top:-1040px;
+}
+
+@media screen and (min-width: 600px) and (max-width: 720px) {
+
+    main {
+        margin-top: 80px;
+    }
+
+aside#iframe {
+  
+    margin-top: -950px;
+}
+}
+
+@media screen and (min-width: 720px) and (max-width: 1024px) {
+
+main {
+    margin-top: 80px;
+}
+
+aside#iframe {
+  
+    margin-top: -920px;
+}
+
+}
+    
+@media screen and (min-width: 1024px) {
+
+    main {
+        margin-top: 80px;
+    }
+}
+
+aside#iframe {
+  
+    margin-top: -920px;
+}
